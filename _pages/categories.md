@@ -1,8 +1,6 @@
 ---
-permalink: /about/
-title: "About"
-toc: true
-toc_sticky: true
-toc_label: "MYSELF"
+title: "Categories"
+permalink: /categories/
+layout: categories
+author_profile: true
 ---
-~~~
