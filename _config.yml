@@ -135,15 +135,15 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-square-envelope"
-      url: "rkdalswl403@gmail.com"
     - label: "GitHub"
       icon: "fas fa-fw fa-link"
       url: "https://github.com/mingd00"
     - label: "Linkedin"
       icon: "fab fa-fw fa-square-x-twitter"
       url: "https://www.linkedin.com/in/minji-kang-824522318/"
+    - label: "Email"
+      icon: "fas fa-fw fa-square-envelope"
+      url: "rkdalswl403@gmail.com"
   since: "2026"
 
 
