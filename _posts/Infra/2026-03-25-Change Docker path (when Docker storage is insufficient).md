@@ -27,7 +27,7 @@ The current root directory is about 89% full, and even after cleaning up unused 
 df -h
 ```
 
-![image](https://github.com/user-attachments/assets/32fab7ee-2613-4718-9d77-5ec3c93a00fe)
+![image](/assets/images/2/2-1.png)
 
 
 <br>
