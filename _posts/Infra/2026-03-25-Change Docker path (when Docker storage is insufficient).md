@@ -27,9 +27,7 @@ The current root directory is about 89% full, and even after cleaning up unused 
 df -h
 ```
 
-
-![image](https://github.com/user-attachments/assets/7194137f-93d1-485f-a070-474b954fc54f)
-
+![image](/assets/images/2/2-1.png)
 
 <br>
 
@@ -40,6 +38,8 @@ df -h
 docker info -f '{{ .DockerRootDir }}'
 ```
 {% endraw %}
+
+![image](/assets/images/2/2-2.png)
 
 <br>
 
@@ -61,6 +61,8 @@ Move the data from the current path you checked earlier to the new path.
 ```python
 sudo mv /var/lib/docker /data
 ```
+
+![image](/assets/images/2/2-3.png)
 
 → you can verify that the data was moved successfully using the `ls` command. 
 
@@ -97,6 +99,8 @@ sudo systemctl start docker
 docker info -f '{{ .DockerRootDir }}'
 ```
 {% endraw %}
+
+![image](/assets/images/2/2-4.png)
 
 → You can verify that the data has been successfully moved to the `/data` folder.
 
