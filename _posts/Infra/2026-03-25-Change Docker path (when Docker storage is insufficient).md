@@ -29,8 +29,6 @@ df -h
 
 ![image](https://github.com/user-attachments/assets/7194137f-93d1-485f-a070-474b954fc54f)
 
-<img width="518" height="174" alt="Image" src="https://github.com/user-attachments/assets/53f837f3-e5bc-41ad-852f-dd46cb143d5e" />
-
 <br>
 
 #### Check the current path
@@ -40,8 +38,6 @@ df -h
 docker info -f '{{ .DockerRootDir }}'
 ```
 {% endraw %}
-
-![image.png](attachment:3211c031-d8a7-42db-9ace-4c128338c682:image.png)
 
 <br>
 
@@ -63,8 +59,6 @@ Move the data from the current path you checked earlier to the new path.
 ```python
 sudo mv /var/lib/docker /data
 ```
-
-![image.png](attachment:29772008-a6d0-40db-8b53-ee7f22505324:image.png)
 
 → you can verify that the data was moved successfully using the `ls` command. 
 
@@ -96,11 +90,11 @@ sudo systemctl start docker
 
 #### Check the new path
 
+{% raw %}
 ```python
-docker info -f '{{ .DockerRootDir}}'
+docker info -f '{{ .DockerRootDir }}'
 ```
-
-![image.png](attachment:6a068572-47b7-475d-b59c-66e455004bbf:image.png)
+{% endraw %}
 
 → You can verify that the data has been successfully moved to the `/data` folder.
 
