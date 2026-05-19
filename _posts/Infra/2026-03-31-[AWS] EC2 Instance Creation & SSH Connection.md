@@ -15,7 +15,8 @@ categories:
 <br>
 
 #### Name and tags
-Set instance name 
+- Set instance name 
+
 ![image](/assets/images/4/3.png)
 
 <br>
@@ -110,7 +111,8 @@ chmod 400 test-instance-key-pair.pem
 ![image](/assets/images/4/15.png)
 
 <br>
-- 
+
+- Once the Instance state changes from "Shutting-down" to "Terminated", it has been successfully terminated
 
 ![image](/assets/images/4/16.png)
 ![image](/assets/images/4/17.png)
