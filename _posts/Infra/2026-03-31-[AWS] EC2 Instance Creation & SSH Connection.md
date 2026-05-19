@@ -1,5 +1,5 @@
 ---
-title: "EC2 Instance Creation & SSH Connection"
+title: "[AWS] EC2 Instance Creation & SSH Connection"
 last_modified_at: 2026-03-31
 categories:
     - Infra

@@ -1,5 +1,5 @@
 ---
-title: "AWS Core Services & IAM Identity Center Management"
+title: "[AWS] AWS Core Services & IAM Identity Center Management"
 last_modified_at: 2026-03-26
 categories:
     - Infra

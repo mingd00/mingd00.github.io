@@ -1,5 +1,5 @@
 ---
-title: "Change Docker path (when Docker storage is insufficient)"
+title: "[Docker] Change Docker path (when Docker storage is insufficient)"
 last_modified_at: 2026-03-25
 categories:
     - Infra
